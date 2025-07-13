@@ -7,7 +7,7 @@ import { ReactNode } from "react";
 
 const Provider = ({children}: {children:ReactNode}) => {
   return (
-    <LiveblocksProvider authEndpoint="/api/liveblocks-auth" >
+    <LiveblocksProvider  publicApiKey={"public key here"} >
       
         <ClientSideSuspense fallback={<Loader/>}>
           {children}

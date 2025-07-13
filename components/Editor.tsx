@@ -9,7 +9,7 @@ import {
   LiveblocksPlugin,
   FloatingToolbar,
 } from "@liveblocks/react-lexical";
-// import { Threads } from "./Threads";
+import { Threads } from "./Threads";
 
 export function Editor() {
   // Wrap your Lexical config with `liveblocksConfig`
@@ -30,7 +30,7 @@ export function Editor() {
           ErrorBoundary={LexicalErrorBoundary}
         />
         <LiveblocksPlugin>
-          {/* <Threads /> */}
+          <Threads />
           <FloatingToolbar />
         </LiveblocksPlugin>
       </div>
