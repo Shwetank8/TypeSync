@@ -6,12 +6,18 @@ A real-time collaborative text editing platform built with **Next.js**, **Livebl
 
 ---
 
+## Tech Stack
+- Next.js
+- LiveBlocks
+- Clerk
+- ShadCN
+  
+
 ## 🚀 Features
 
 ### 🔐 Authentication
-- **GitHub Login** using NextAuth.
+- **Google** or **Email** SignUp/SignIn
 - Secure sign-in/out with session management.
-- Protected routes and role-based access.
 
 ### 📝 Collaborative Text Editor
 - Real-time editing with multiple users on the same document.
@@ -45,6 +51,5 @@ A real-time collaborative text editing platform built with **Next.js**, **Livebl
 
 ---
 
-## 🏗 Code Architecture
 
 
