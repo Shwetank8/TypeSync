@@ -2,7 +2,7 @@
 
 A real-time collaborative text editing platform built with **Next.js**, **Liveblocks**, and **Clerk**, enabling seamless multi-user editing, document sharing, and communication.
 
-![TypeSync Banner](./public/banner.png)
+
 
 ---
 
